@@ -20,7 +20,6 @@ ECHO         shutdowner a
 
 echo.
 echo written by Akash Kahalkar
-ECHO http://www.ark.co.in
 goto end
 
 :abort
