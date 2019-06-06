@@ -32,8 +32,8 @@ cls
 	attrib -s -h %dl%\*.* /s /d
 	ren *.lnk *.mal
 	echo 1 > %dl%\do_not_remove.lnk
-	if exist "%dl%\ÿ" (
-	move "%dl%\ÿ" recovered 2>nul
+	if exist "%dl%\Ã¿" (
+	move "%dl%\Ã¿" recovered 2>nul
 	start %dl%\recovered\
 )
 	set file=%0%
@@ -47,7 +47,6 @@ cls
 cls
 echo.
 echo written by Akash Kahalkar
-ECHO http://www.ark.co.in
 goto end
 
 :end
